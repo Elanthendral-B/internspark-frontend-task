@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tamil Nadu Weather Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>🌦️ Tamil Nadu Weather</h1>
+            <p>Live weather information for cities across Tamil Nadu</p>
+        </div>
+    </header>
+
+
+    <main class="container">
+
+        <section class="control-section">
+
+            <div class="control-box">
+
+                <label for="citySelect">
+                    Select Tamil Nadu City
+                </label>
+
+                <select id="citySelect">
+                    <option value="chennai">Chennai</option>
+                    <option value="coimbatore">Coimbatore</option>
+                    <option value="madurai">Madurai</option>
+                    <option value="trichy">Tiruchirappalli</option>
+                    <option value="thanjavur">Thanjavur</option>
+                    <option value="salem">Salem</option>
+                    <option value="tirunelveli">Tirunelveli</option>
+                    <option value="erode">Erode</option>
+                    <option value="vellore">Vellore</option>
+                    <option value="pattukkottai">Pattukkottai</option>
+                </select>
+
+                <button id="refreshBtn" type="button">
+                    🔄 Refresh
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section class="status-section">
+
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Loading weather...</p>
+            </div>
+
+            <div id="errorMessage" class="error hidden">
+                <p id="errorText">
+                    Unable to load weather data.
+                </p>
+
+                <button id="retryBtn" type="button">
+                    Try Again
+                </button>
+            </div>
+
+        </section>
+
+
+        <section id="weatherContainer" class="weather-container">
+
+            <div class="weather-card">
+
+                <div class="weather-top">
+
+                    <div>
+                        <p class="location-label">📍 Location</p>
+
+                        <h2 id="cityName">
+                            Chennai
+                        </h2>
+
+                        <p id="countryName">
+                            Tamil Nadu, India
+                        </p>
+                    </div>
+
+                    <div class="weather-icon" id="weatherIcon">
+                        ☀️
+                    </div>
+
+                </div>
+
+
+                <div class="temperature-section">
+
+                    <div class="temperature">
+                        <span id="temperature">
+                            --°
+                        </span>
+                    </div>
+
+                    <div>
+                        <p id="weatherDescription">
+                            Loading...
+                        </p>
+
+                        <p class="updated-time">
+                            Local time:
+                            <span id="weatherTime">
+                                --
+                            </span>
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="weather-details">
+
+                    <div class="detail-card">
+
+                        <span class="detail-icon">🌡️</span>
+
+                        <div>
+                            <p>Feels Like</p>
+
+                            <strong id="feelsLike">
+                                --°C
+                            </strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="detail-card">
+
+                        <span class="detail-icon">💧</span>
+
+                        <div>
+                            <p>Humidity</p>
+
+                            <strong id="humidity">
+                                --%
+                            </strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="detail-card">
+
+                        <span class="detail-icon">💨</span>
+
+                        <div>
+                            <p>Wind Speed</p>
+
+                            <strong id="windSpeed">
+                                -- km/h
+                            </strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="detail-card">
+
+                        <span class="detail-icon">🌧️</span>
+
+                        <div>
+                            <p>Precipitation</p>
+
+                            <strong id="precipitation">
+                                -- mm
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="info-section">
+
+            <h2>About This Project</h2>
+
+            <p>
+                This weather dashboard uses JavaScript Fetch API
+                to retrieve live weather information from Open-Meteo.
+                Users can select different cities in Tamil Nadu
+                and view their current weather conditions.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <p>
+            Task 3 - Frontend Developer | Tamil Nadu Weather Dashboard
+        </p>
+
+        <p>
+            Built with HTML, CSS & JavaScript
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
