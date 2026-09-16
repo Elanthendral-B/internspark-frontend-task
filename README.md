@@ -37,10 +37,6 @@ The portfolio showcases my profile, skills, education, projects, internship expe
 - CSS3
 - JavaScript
 
-## Screenshot
-
-![Task 1 Portfolio](screenshots/task-1-portfolio.png)
-
 ---
 
 # 📌 Task 2 – To-Do List App
@@ -71,9 +67,6 @@ Users can add tasks, mark tasks as completed, delete tasks and clear completed t
 - DOM Manipulation
 - LocalStorage
 
-## Screenshot
-
-![Task 2 To-Do App](screenshots/task-2-todo.png)
 
 ---
 
@@ -126,10 +119,6 @@ The application uses the Open-Meteo Weather API and JavaScript Fetch API to retr
 
 Open-Meteo Weather API
 
-## Screenshot
-
-![Task 3 Weather Dashboard](screenshots/task-3-weather.png)
-
 ---
 
 # 🛠️ Overall Technologies
@@ -147,27 +136,24 @@ Open-Meteo Weather API
 
 # 📂 Project Structure
 
-```text
 internspark-frontend-task/
 │
 ├── task-1-portfolio/
+│   ├── task-1-portfolio.png
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
 │
 ├── task-2-todo/
+│   ├── task-2-todo.png
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
 │
 ├── task-3-weather/
+│   ├──task-3-weather.png
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
-│
-├── screenshots/
-│   ├── task-1-portfolio.png
-│   ├── task-2-todo.png
-│   └── task-3-weather.png
 │
 └── README.md
