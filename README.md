@@ -136,6 +136,8 @@ Open-Meteo Weather API
 
 # 📂 Project Structure
 
+```text
+
 internspark-frontend-task/
 │
 ├── task-1-portfolio/
