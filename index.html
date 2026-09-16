@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InternSpark Frontend Projects</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 12px;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            opacity: 0.9;
+            margin-bottom: 40px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.14);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 18px;
+            padding: 30px 20px;
+            backdrop-filter: blur(10px);
+            transition: transform 0.25s ease, background 0.25s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            background: rgba(255, 255, 255, 0.22);
+        }
+
+        .icon {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .card h2 {
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            font-size: 14px;
+            line-height: 1.6;
+            opacity: 0.9;
+            margin-bottom: 22px;
+        }
+
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            background: #fff;
+            color: #5b4bb7;
+            padding: 11px 22px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.2s ease;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 35px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 750px) {
+            h1 {
+                font-size: 32px;
+            }
+
+            .projects {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+        <h1>InternSpark Frontend Projects</h1>
+
+        <p class="subtitle">
+            HTML • CSS • JavaScript
+        </p>
+
+        <section class="projects">
+
+            <article class="card">
+                <div class="icon">👩‍💻</div>
+                <h2>Personal Portfolio</h2>
+                <p>
+                    Responsive personal portfolio showcasing profile,
+                    skills, education, projects and certifications.
+                </p>
+
+                <a class="btn" href="./task-1-portfolio/">
+                    View Project
+                </a>
+            </article>
+
+            <article class="card">
+                <div class="icon">✅</div>
+                <h2>To-Do List</h2>
+                <p>
+                    Interactive task management application with
+                    LocalStorage support and task counters.
+                </p>
+
+                <a class="btn" href="./task-2-js-project/">
+                    View Project
+                </a>
+            </article>
+
+            <article class="card">
+                <div class="icon">🌤️</div>
+                <h2>Weather Dashboard</h2>
+                <p>
+                    Tamil Nadu weather dashboard using the
+                    Open-Meteo API and Fetch API.
+                </p>
+
+                <a class="btn" href="./task-3-api-project/">
+                    View Project
+                </a>
+            </article>
+
+        </section>
+
+        <footer>
+            © 2026 Elanthendral B • InternSpark Frontend Developer Task
+        </footer>
+    </main>
+
+</body>
+</html>
