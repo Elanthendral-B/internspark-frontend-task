@@ -37,7 +37,10 @@ The portfolio showcases my profile, skills, education, projects, internship expe
 - CSS3
 - JavaScript
 
-URL Link : http://127.0.0.1:5500/task-1-portfolio/index.html
+## Screenshot
+
+![Task 1 Portfolio](screenshots/task-1-portfolio.png)
+
 ---
 
 # 📌 Task 2 – To-Do List App
@@ -68,7 +71,10 @@ Users can add tasks, mark tasks as completed, delete tasks and clear completed t
 - DOM Manipulation
 - LocalStorage
 
-URL Link : http://127.0.0.1:5500/task-2-js-project/index.html
+## Screenshot
+
+![Task 2 To-Do App](screenshots/task-2-todo.png)
+
 ---
 
 # 📌 Task 3 – Tamil Nadu Weather Dashboard
@@ -120,7 +126,10 @@ The application uses the Open-Meteo Weather API and JavaScript Fetch API to retr
 
 Open-Meteo Weather API
 
-URL Link : http://127.0.0.1:5500/task-3-api-project/index.html
+## Screenshot
+
+![Task 3 Weather Dashboard](screenshots/task-3-weather.png)
+
 ---
 
 # 🛠️ Overall Technologies
