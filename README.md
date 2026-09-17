@@ -39,7 +39,7 @@ The portfolio showcases my profile, skills, education, projects, internship expe
 
 ## URL Link :
 
-![Task 1 Portfolio] http://127.0.0.1:5500/task-1-portfolio/index.html 
+http://127.0.0.1:5500/task-1-portfolio/index.html 
 
 ---
 
@@ -73,7 +73,7 @@ Users can add tasks, mark tasks as completed, delete tasks and clear completed t
 
 ## URL Link :
 
-![Task 2 To-Do App]( http://127.0.0.1:5500/task-2-js-project/index.html )
+ http://127.0.0.1:5500/task-2-js-project/index.html 
 
 ---
 
@@ -140,7 +140,7 @@ Users can search for Tamil Nadu places using the search feature.
 
   ## URL Link:
 
-![Task 2 To-Do App]( http://127.0.0.1:5500/task-3-api-project/index.html )
+ http://127.0.0.1:5500/task-3-api-project/index.html 
 
 
 
