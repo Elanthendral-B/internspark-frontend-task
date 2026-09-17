@@ -39,7 +39,7 @@ The portfolio showcases my profile, skills, education, projects, internship expe
 
 ## URL Link :
 
-![Task 1 Portfolio]( http://127.0.0.1:5500/task-1-portfolio/index.html )
+![Task 1 Portfolio] http://127.0.0.1:5500/task-1-portfolio/index.html 
 
 ---
 
