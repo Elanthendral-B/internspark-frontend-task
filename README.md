@@ -162,8 +162,8 @@ internspark-frontend-task/
 │   ├── style.css
 │   └── script.js
 │
-├── task-3-weather/
-│   ├──task-3-weather.png
+├── task-3-API integration project/
+│   ├──task-3-API integration.png
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
